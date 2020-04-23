@@ -1,14 +1,15 @@
 {
-  "name": "react",
+  "name": "shopping-cart-using-react-redux",
   "version": "1.0.0",
   "description": "React example starter project",
   "keywords": [
-    "react",
+    "react","redux"
     "starter"
   ],
   "main": "src/index.js",
   "dependencies": {
     "@appbaseio/reactivesearch": "3.7.13",
+    "node-sass": "^4.14.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-redux": "7.2.0",

@@ -1,4 +1,4 @@
-import * as types from "../actions/types";
+import {GET_PRODUCTS_SUCCESS} from "../actions/types";
 
 const initialState = {
   products: [
@@ -188,7 +188,7 @@ const initialState = {
 
 export const productReducer = (state = initialState, action) => {
   switch (action.type) {
-    case types.GET_PRODUCT_SUCCESS:
+    case GET_PRODUCTS_SUCCESS:
       return { ...state, products: action.payload };
     default:
       return state;
